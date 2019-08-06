@@ -1,0 +1,54 @@
+##### java
+*.class
+.classpath
+target/
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+hs_err_pid*
+BuildProcessTemplates/
+.springBeans
+*.pid
+elasticsearch/
+
+#### mule
+.mule
+.studio
+
+#idea
+.idea/
+*.iml
+*.log
+
+#git ignore
+#.gitignore
+
+#eclipse
+.metadata/
+RemoteSystemsTempFiles/
+Servers/
+.settings
+*.buildpath
+*.project
+
+#visual studio 2013
+*.vssscc
+*.vspscc
+Miya.Spider/packages/
+bin/
+obj/
+*.suo
+
+
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#tfs
+$tf
+
+#idea
+.idea/
+*.iml
