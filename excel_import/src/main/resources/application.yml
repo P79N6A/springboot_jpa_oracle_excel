@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@106.12.27.130:1521:helowin
+    username: system
+    password: system
+
+  jpa:
+    hibernate:
+#      如果为update，那么就是自动更新
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle10gDialect
